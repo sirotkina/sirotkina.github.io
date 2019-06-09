@@ -1,0 +1,82 @@
+body{
+    background-image: url(/hw3/img/fon.jpg);
+    color: black;
+    font-size: 14pt;
+}
+.about {
+    border: 4px solid #660000;
+    padding: 3px;
+    background-color: rgb(255, 223, 158);
+    margin: 5px;
+}
+
+.content{
+    border: 3px double #360000;
+    padding: 4px;
+    position: fixed;
+    left: 0;
+    margin: 10px 10px 10px 20px;
+    background-color: rgb(255, 223, 158);
+    width: 15%; 
+}
+
+.main_text{
+    border: 3px solid #360000;
+    padding: 3px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(255, 223, 158);
+    width: 80%; 
+    float:right; 
+}
+
+.leftimg {
+    float:left; 
+    margin: 10px 10px 10px 10px; 
+    border: 5px solid #420101;
+}
+
+.rightimg  {
+    border: 5px solid white;
+    float: right; 
+    margin: 10px 10px 10px 10px; 
+}
+
+.centreimg {
+    text-align:center;
+    margin: 10px 0px 10px 0px;
+}
+
+.map{
+    border: 5px solid #420101;
+}
+
+.dialogue {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    color: chocolate;
+}
+
+span.italic{
+    font-style: italic;
+}
+
+span.line_through{
+    text-decoration: line-through;
+}
+
+span.overline{
+    text-decoration: overline;
+}
+
+span.underline{
+    text-decoration: underline;
+}
+
+span.bold{
+    font-weight: bold;
+    font-size: 15pt;
+    color: #250000;
+}
