@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://sirotkina.github.io/homeworks/hw3/img/fon.jpg);
+    background-image: url("https://sirotkina.github.io/homeworks/hw3/img/fon.jpg");
     color: black;
     font-size: 14pt;
 }
