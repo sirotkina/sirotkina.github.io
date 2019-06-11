@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 body{
-    background-image: url(homeworks/hw4/img/fon.jpg);
+    background-image: url('https://sirotkina.github.io/homeworks/hw4/img/fon.jpg');
     color: black;
     font-size: 14pt;
-    font-family: Lobster;
+
 }
 
 .about {
@@ -12,7 +12,7 @@ body{
     padding: 3px;
     background-color: rgb(255, 223, 158);
     margin: 5px;
-    
+    font-family: url('https://sirotkina.github.io/homeworks/hw4/fonts/Forum-Regular.ttf');
 }
 
 .content{
@@ -23,6 +23,7 @@ body{
     margin: 10px 10px 10px 20px;
     background-color: rgb(255, 223, 158);
     width: 15%; 
+    font-family: url('https://sirotkina.github.io/homeworks/hw4/fonts/Forum-Regular.ttf');
 }
 
 .main_text{
@@ -32,6 +33,8 @@ body{
     background-color: rgb(255, 223, 158);
     width: 80%; 
     float:right; 
+    font-family: url('https://sirotkina.github.io/homeworks/hw4/fonts/Forum-Regular.ttf');
+}
 }
 
 .leftimg {
@@ -62,7 +65,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     text-align: center;
     color: chocolate;
-    font-family: url(homeworks/hw4/fonts/Forum-Regular.ttf);
+    font-family: Lobster;
 }
 
 span.italic{
