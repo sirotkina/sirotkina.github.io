@@ -26,6 +26,17 @@ body{
     font-family: url('https://sirotkina.github.io/homeworks/hw4/fonts/Forum-Regular.ttf');
 }
 
+.content ul li {
+    list-style-type: none;
+}
+
+.content ul li a {
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .main_text{
     border: 3px solid #360000;
     padding: 3px;
