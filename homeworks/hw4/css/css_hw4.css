@@ -4,6 +4,7 @@ body{
     background-image: url(homeworks/hw4/img/fon.jpg);
     color: black;
     font-size: 14pt;
+    font-family: Lobster;
 }
 
 .about {
@@ -11,7 +12,7 @@ body{
     padding: 3px;
     background-color: rgb(255, 223, 158);
     margin: 5px;
-    font-family: Lobster;
+    
 }
 
 .content{
@@ -21,7 +22,6 @@ body{
     left: 0;
     margin: 10px 10px 10px 20px;
     background-color: rgb(255, 223, 158);
-    font-family: Lobster;
     width: 15%; 
 }
 
@@ -31,7 +31,6 @@ body{
     margin: 10px 10px 10px 10px;
     background-color: rgb(255, 223, 158);
     width: 80%; 
-    font-family: Lobster;
     float:right; 
 }
 
