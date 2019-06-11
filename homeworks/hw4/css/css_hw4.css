@@ -5,7 +5,6 @@ body{
     background-image: url('https://sirotkina.github.io/homeworks/hw4/img/fon.jpg');
     color: black;
     font-size: 14pt;
-
 }
 
 .about {
@@ -48,7 +47,6 @@ body{
     width: 80%; 
     float:right; 
     font-family: url('https://sirotkina.github.io/homeworks/hw4/fonts/Forum-Regular.ttf');
-}
 }
 
 .leftimg {
