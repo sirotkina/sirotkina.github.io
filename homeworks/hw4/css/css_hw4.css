@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i&display=swap');
 
 body{
     background-image: url('https://sirotkina.github.io/homeworks/hw4/img/fon.jpg');
@@ -28,6 +29,8 @@ body{
 
 .content ul li {
     list-style-type: none;
+    font-family: Montserrat; 
+    font-weight: 400;
 }
 
 .content ul li a {
