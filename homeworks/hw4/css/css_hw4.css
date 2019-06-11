@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
 body{
-    background-image: url(img/fon.jpg);
+    background-image: url(homeworks/hw4/img/fon.jpg);
     color: black;
     font-size: 14pt;
 }
@@ -11,6 +11,7 @@ body{
     padding: 3px;
     background-color: rgb(255, 223, 158);
     margin: 5px;
+    font-family: Lobster;
 }
 
 .content{
@@ -62,7 +63,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     text-align: center;
     color: chocolate;
-    font-family: url(Forum-Regular.ttf);
+    font-family: url(homeworks/hw4/fonts/Forum-Regular.ttf);
 }
 
 span.italic{
