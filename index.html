@@ -6,33 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/menu_style.css">
+    <link rel="stylesheet" href="css/feedback_style.css">
+    <link rel="stylesheet" href="css/main_style.css">
     <script src="js/js_menu.js"></script>
     <title>Document</title>
 </head>
 <body>
 
-    <nav>
-        <div class="container">
-            <div id="navbar">
-                <ul class="topmenu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="positioning/index.html">Позиционирование</a></li>
-                    <li><a href="" class="down">Д/з HTML/CSS</a>
-                        <ul class="submenu">
-                            <li><a href="homeworks/hw1/index.html">Первое</a></li>
-                            <li><a href="homeworks/hw1/index.html">Второе</a></li>
-                            <li><a href="homeworks/hw3/index.html">Третье</a></li>
-                            <li><a href="homeworks/hw4/index.html">Четвертое</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Обо мне</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul> 
+    <div class="header">
+        <nav>
+            <div class="container">
+                <div id="navbar">
+                    <ul class="topmenu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="positioning/index.html">Позиционирование</a></li>
+                        <li><a href="" class="down">Д/з HTML/CSS</a>
+                            <ul class="submenu">
+                                <li><a href="homeworks/hw1/index.html">Первое</a></li>
+                                <li><a href="homeworks/hw1/index.html">Второе</a></li>
+                                <li><a href="homeworks/hw3/index.html">Третье</a></li>
+                                <li><a href="homeworks/hw4/index.html">Четвертое</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Обо мне</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#inline">Обратная связь</a></li>
+                    </ul> 
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
-    <div class="content">
+    <div class="main">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolore molestiae qui vero iure ducimus fugit voluptas. Commodi enim minus, corporis perferendis ipsam eius deleniti ratione recusandae eveniet reprehenderit nemo doloremque eos itaque veniam culpa porro iusto quidem dignissimos dolor nihil ipsa. Doloribus vitae dolor illo, iure voluptatem quos officiis.</p>
         <p>Distinctio ratione dolore enim nemo, sequi itaque, deserunt ut dicta nulla, quasi ab. Amet commodi dolore accusantium, adipisci architecto veritatis assumenda maxime doloribus eius iure ut aliquam deserunt est inventore, id rerum, eos nobis fuga saepe nam sint minus voluptas. Molestiae iure, expedita officia perspiciatis aspernatur quam quo eius sed.</p>
         <p>Molestiae fugiat consequuntur voluptates natus iusto praesentium suscipit dolorum minima dolor, sed sint iure asperiores quisquam tempore, repellendus pariatur ut et eos aut? Praesentium iste iusto provident minima sunt nulla beatae, dolorum quasi, nihil nam vero consequatur ipsam, ab dolores. Debitis odio dolorem suscipit dolor ab sit eius aut quas?</p>
@@ -58,6 +63,19 @@
         <p>Nulla architecto veritatis iusto, obcaecati impedit, tenetur eaque, similique dolorem atque magni vero nihil quasi autem? Eius quidem consectetur, doloremque unde dolorum accusantium error quos sunt, praesentium quaerat, sed amet? Et reprehenderit ipsam dolores laudantium quam voluptate doloribus deleniti provident quasi sit voluptatibus dolore, magnam blanditiis tenetur consequuntur quas? Quam.</p>
         <p>Expedita veritatis ad perferendis, a animi iure. Minus, incidunt pariatur eaque saepe aperiam tempore dolorem iusto quibusdam ducimus officia dolore tempora sint fugit libero, voluptatem ipsam vitae earum consequatur soluta molestias beatae fugiat assumenda suscipit! Voluptas facilis ea nobis ullam ratione sequi placeat incidunt quo dolore. Quas suscipit veritatis ducimus.</p>
         <p>Aliquid maiores enim, dolorem eius exercitationem dicta error possimus eveniet unde? Mollitia ut impedit expedita excepturi exercitationem nemo quis quaerat fugiat natus facilis sunt deleniti blanditiis voluptatibus deserunt corporis, nihil consequuntur totam unde delectus molestias aliquam in earum! Incidunt qui cum impedit fugiat ratione harum nam ipsam molestias sunt quo.</p>
+        <div id="inline">
+            <div class="wrap"><h2>Обратная связь</h2></div>
+            <form id="contact" name="contact" action="#" method="post">
+            <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя"><input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
+            <div class="wrap"><button id="send" disabled>Отправить</button></div>
+            </form>
+        </div>
+
     </div>
+
+    <div class="footer">
+
+    </div>
+    
 </body>
 </html>
