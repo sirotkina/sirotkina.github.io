@@ -2,7 +2,7 @@
     background-color: #f5ddcd;
     background-image: url("https://sirotkina.github.io/img/bg_top.jpg");
     background-repeat: no-repeat;
-    outline: 5px solid red;
+    /* outline: 5px solid red; */
     width: 100%;
     height: 1000px;
 }
