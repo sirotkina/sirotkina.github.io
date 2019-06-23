@@ -1,6 +1,6 @@
 .top_animation {
     background-color: #f5ddcd;
-    background-image: url(../img/bg_top.jpg);
+    background-image: url("https://sirotkina.github.io/img/bg_top.jpg");
     background-repeat: no-repeat;
     outline: 5px solid red;
     width: 100%;
