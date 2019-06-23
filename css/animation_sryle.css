@@ -18,29 +18,23 @@
 path {
     stroke: #fff;
     fill: #fff;
-    stroke-dasharray: 1800;
+    stroke-dasharray: 2300;
     opacity: 10;
-    /* animation: animate 3s cubic-bezier(0, 0.23, 1, .1); */
-    animation: animate 6.5s cubic-bezier(0,.24,.6,.91);
+    animation: animate 3s cubic-bezier(0, 0.23, 1, .1);
+    /* animation: animate 6.5s cubic-bezier(0,.24,.6,.91); */
 }
 
 @keyframes animate {
     0% {
         opacity: 0;
         fill: none;
-        stroke-dasharray: 1800;
-    }
-
-    15% {
-        opacity: 7;
-        fill: none;
-        stroke-dasharray: 1800;
+        stroke-dasharray: 2300;
     }
 
     30% {
         opacity: 10;
         fill: none;
-        stroke-dasharray: 1800;
+        stroke-dasharray: 2300;
     }
 
     90% {
