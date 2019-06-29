@@ -4,177 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet"> 
+    <title>Bootstrap Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://sirotkina.github.io/css/menu_style.css">
-    <link rel="stylesheet" href="https://sirotkina.github.io/css/feedback_style.css">
-    <link rel="stylesheet" href="https://sirotkina.github.io/css/main_style.css">
-    <link rel="stylesheet" href="https://sirotkina.github.io/css/animation_sryle.css">
-    <script src="https://sirotkina.github.io/js/js_menu.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://sirotkina.github.io/css/fontawesome.css">
+    <link rel="stylesheet" href="https://sirotkina.github.io/css/style.css">
+
 </head>
 <body>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-inverse">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://sirotkina.github.io/positioning/index.html">Позиционирование</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://sirotkina.github.io/homeworks/hw7_meow/index.html">Bootstrap</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Д/з html / css
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://sirotkina.github.io/homeworks/hw1/index.html">первое</a>
+                <a class="dropdown-item" href="https://sirotkina.github.io/homeworks/hw1/index.html">второе</a>
+                <a class="dropdown-item" href="https://sirotkina.github.io/homeworks/hw3/index.html">третье</a>
+                <a class="dropdown-item" href="https://sirotkina.github.io/homeworks/hw4/index.html">четвертое</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
-    <div class="header">
-        <nav>
-            <div class="container">
-                <div id="navbar">
-                    <ul class="topmenu">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="positioning/index.html">Позиционирование</a></li>
-                        <li><a href="homeworks/hw7_meow/index.html">Bootstrap</a></li>
-                        <li><a href="" class="down">Д/з HTML/CSS</a>
-                            <ul class="submenu">
-                                <li><a href="homeworks/hw1/index.html">Первое</a></li>
-                                <li><a href="homeworks/hw1/index.html">Второе</a></li>
-                                <li><a href="homeworks/hw3/index.html">Третье</a></li>
-                                <li><a href="homeworks/hw4/index.html">Четвертое</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Обо мне</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#inline">Обратная связь</a></li>
-                    </ul> 
-                </div>
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/carusel1.jpg" class="d-block w-100" alt="...">
             </div>
-        </nav>
-    </div>
-
-    
-    <div class="top_animation">
-        <!-- <img src="img/bg_top.jpg" alt=""> -->
-        <div class="top_text">
-
-            <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                viewBox="0 0 2455 392" style="enable-background:new 0 0 2455 392;" xml:space="preserve">
-           <style type="text/css">
-               .st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-           </style>
-           <g>
-               <path class="st0" d="M319.5,39c0,16.67-7.92,31.5-23.75,44.5c-15.84,13-34,22.5-54.5,28.5S201,121,182,121c-5,0-8.67-0.16-11-0.5
-                   v-17c0.66,0,10.33-1.58,29-4.75C218.66,95.59,234.41,90,247.25,82c12.83-8,19.25-17,19.25-27c0-12-9-18-27-18
-                   c-24.34,0-47.34,8.34-69,25C148.83,78.67,138,96.17,138,114.5c0,18.34,11.33,30.17,34,35.5c5,1.34,8.33,2.67,10,4
-                   c1.66,1.34,2.5,3.67,2.5,7c0,3.34-1.59,6.09-4.75,8.25c-3.17,2.17-10.42,5.25-21.75,9.25c-61.34,21-92,53.67-92,98
-                   c0,9,1.66,16.67,5,23c20.33-26,46.66-47.16,79-63.5c32.33-16.33,63.5-24.5,93.5-24.5c15.66,0,28.16,3.42,37.5,10.25
-                   c9.33,6.84,14,16.25,14,28.25c0,18.67-8.67,37.34-26,56c-17.34,18.67-39.75,33.91-67.25,45.75c-27.5,11.83-54.84,17.75-82,17.75
-                   c-27.17,0-48.59-5-64.25-15c-0.34,0.33-1.84,2.83-4.5,7.5c-6.67,13.33-12.34,22.66-17,28l-16.5-7c2.33-9.34,9.16-23.5,20.5-42.5
-                   c-15.34-17.33-23-36.75-23-58.25s8.75-42,26.25-61.5s41.91-35.58,73.25-48.25C98.83,159.5,91,146,91,132c0-19,10-38.41,30-58.25
-                   c20-19.83,44.41-35.91,73.25-48.25C223.08,13.17,250.16,7,275.5,7c13.33,0,24,2.92,32,8.75C315.5,21.59,319.5,29.34,319.5,39z
-                    M214.5,241.5c-19.67,0-42.59,7.5-68.75,22.5c-26.17,15-47.42,32.84-63.75,53.5c13.33,15,32.25,22.5,56.75,22.5s48.5-7.92,72-23.75
-                   S246,283.34,246,265c0-7.33-2.84-13.08-8.5-17.25C231.83,243.59,224.16,241.5,214.5,241.5z"/>
-               <path class="st0" d="M433,242.5c-19.67,17.67-46.17,46.5-79.5,86.5l-14-11.5c6.33-15.33,33.5-47.33,81.5-96
-                   c-12.67-30.66-19.67-55.83-21-75.5l33-6c1.66,2.34,8.16,22.5,19.5,60.5c42-30,71.83-49.16,89.5-57.5l9.5,13.5
-                   c-5.67,4.67-15.67,11.84-30,21.5c-38.34,26-58.5,40-60.5,42c18,38.34,39.5,71.34,64.5,99L502,334
-                   C474.66,314,451.66,283.5,433,242.5z"/>
-               <path class="st0" d="M775.99,275.5l11.5,8.5c-4.67,10-13.25,19.5-25.75,28.5S737.82,326,727.49,326c-19.67,0-29.5-10.33-29.5-31
-                   c0-9.66,2.5-21.16,7.5-34.5l-18.5,19c-18,18.34-33.59,30.67-46.75,37c-13.17,6.34-26.09,9.5-38.75,9.5
-                   c-12.67,0-22.25-3.58-28.75-10.75c-6.5-7.16-9.75-17.08-9.75-29.75c0-23.33,9-46.41,27-69.25c18-22.83,41-41.41,69-55.75
-                   c28-14.33,56-21.66,84-22l1,16.5l-21,4.5c-30.34,6.67-57.09,20-80.25,40c-23.17,20-34.75,39.92-34.75,59.75
-                   c0,19.84,8,29.75,24,29.75c15,0,33.5-10.5,55.5-31.5s40.33-45.66,55-74l21,12.5c-20.67,41.67-31,68.17-31,79.5
-                   c0,4.67,1.58,8.59,4.75,11.75c3.16,3.17,6.33,4.75,9.5,4.75c3.16,0,5.25-0.16,6.25-0.5c1-0.33,2-0.75,3-1.25s2.25-1.25,3.75-2.25
-                   s2.83-2,4-3c1.16-1,3.08-2.5,5.75-4.5C772.15,278.5,774.32,276.84,775.99,275.5z"/>
-               <path class="st0" d="M1134.49,261l10.5,10c-19,34-40.84,51-65.5,51c-10,0-17.75-2.75-23.25-8.25s-8.25-12.83-8.25-22
-                   c0-9.16,5.5-24.91,16.5-47.25c11-22.33,16.83-39.33,17.5-51c0.33-5.33-1.25-9.66-4.75-13c-3.5-3.33-8.25-5-14.25-5
-                   s-12.09,1.42-18.25,4.25c-6.17,2.84-12.17,7.42-18,13.75c-5.84,6.34-11.17,12.5-16,18.5c-4.84,6-10.17,14.5-16,25.5
-                   c-5.84,11-10.75,20.17-14.75,27.5c-7,13.67-17,34.17-30,61.5l-30-10.5c0-1,5.5-19.83,16.5-56.5c11-36.66,16.5-58.5,16.5-65.5
-                   s-1.67-12.08-5-15.25c-3.34-3.16-7.5-4.75-12.5-4.75c-15,0-35.75,18.67-62.25,56c-26.5,37.34-43.42,69.17-50.75,95.5l-28.5-9.5
-                   c1.66-17.66,9.5-49.41,23.5-95.25c14-45.83,25.83-77.08,35.5-93.75l22.5,8c-10.34,23-17.5,42.42-21.5,58.25
-                   c-4,15.84-7.5,32.75-10.5,50.75c28.66-41,52.66-69.75,72-86.25c19.33-16.5,36.83-24.75,52.5-24.75c17,0,25.5,8.5,25.5,25.5
-                   c0,6.67-2.92,19.84-8.75,39.5c-5.84,19.67-10.42,35.17-13.75,46.5c46-74,87.16-111,123.5-111c9,0,16.16,2.75,21.5,8.25
-                   c5.33,5.5,8,13.67,8,24.5c0,10.84-6.25,28.75-18.75,53.75s-18.75,40.75-18.75,47.25s1.33,11.25,4,14.25c2.66,3,6,4.5,10,4.5
-                   C1109.15,286,1120.49,277.67,1134.49,261z"/>
-               <path class="st0" d="M1252.48,261.5l10,8.5c-8,15.34-18.59,28.42-31.75,39.25c-13.17,10.84-25.09,16.25-35.75,16.25
-                   c-18.67,0-28-13-28-39c0-32.33,13.33-74.5,40-126.5c6-11.33,9.5-18,10.5-20l21.5,13c-7,12.67-15.59,32.84-25.75,60.5
-                   c-10.17,27.67-15.25,45.42-15.25,53.25c0,7.84,1.66,13.42,5,16.75c3.33,3.34,7.33,5,12,5
-                   C1223.98,288.5,1236.48,279.5,1252.48,261.5z M1258.98,114c-18.67,0-28-7.5-28-22.5c0-8.33,2.33-15.33,7-21
-                   c4.66-5.66,10.66-8.5,18-8.5c7.33,0,13.33,2.17,18,6.5c4.66,4.34,7,10,7,17s-2,13.5-6,19.5S1265.64,114,1258.98,114z"/>
-               <path class="st0" d="M1500.47,265.5l10.5,8c-7.34,14.67-17.42,27-30.25,37c-12.84,10-24.42,15-34.75,15c-10.34,0-18.5-3-24.5-9
-                   s-9-13.5-9-22.5s5.75-24.75,17.25-47.25s17.25-39.08,17.25-49.75c0-4.66-1.92-8.91-5.75-12.75c-3.84-3.83-8.42-5.75-13.75-5.75
-                   c-17,0-34.17,12.92-51.5,38.75c-17.34,25.84-36.67,63.09-58,111.75l-30-10.5c6.33-38.66,15.41-76.41,27.25-113.25
-                   c11.83-36.83,22.75-63.25,32.75-79.25l20.5,6.5c-9.34,23.67-21.17,64.5-35.5,122.5c46-78.66,88.33-118,127-118
-                   c8.33,0,15.25,2.84,20.75,8.5c5.5,5.67,8.25,12.34,8.25,20c0,7.67-1,14.59-3,20.75c-2,6.17-8.25,20.5-18.75,43
-                   s-15.75,36.59-15.75,42.25c0,5.67,1.66,10.09,5,13.25c3.33,3.17,6.5,4.75,9.5,4.75s5.5-0.5,7.5-1.5s4.25-2.5,6.75-4.5
-                   s4.75-3.83,6.75-5.5c2-1.66,4.41-3.91,7.25-6.75C1497.05,268.42,1499.14,266.5,1500.47,265.5z"/>
-               <path class="st0" d="M1737.47,275.5l11.5,8.5c-4.67,10-13.25,19.5-25.75,28.5s-23.92,13.5-34.25,13.5c-19.67,0-29.5-10.33-29.5-31
-                   c0-9.66,2.5-21.16,7.5-34.5l-18.5,19c-18,18.34-33.59,30.67-46.75,37c-13.17,6.34-26.09,9.5-38.75,9.5
-                   c-12.67,0-22.25-3.58-28.75-10.75c-6.5-7.16-9.75-17.08-9.75-29.75c0-23.33,9-46.41,27-69.25c18-22.83,41-41.41,69-55.75
-                   c28-14.33,56-21.66,84-22l1,16.5l-21,4.5c-30.34,6.67-57.09,20-80.25,40c-23.17,20-34.75,39.92-34.75,59.75
-                   c0,19.84,8,29.75,24,29.75c15,0,33.5-10.5,55.5-31.5s40.33-45.66,55-74l21,12.5c-20.67,41.67-31,68.17-31,79.5
-                   c0,4.67,1.58,8.59,4.75,11.75c3.16,3.17,6.33,4.75,9.5,4.75c3.16,0,5.25-0.16,6.25-0.5c1-0.33,2-0.75,3-1.25s2.25-1.25,3.75-2.25
-                   s2.83-2,4-3c1.16-1,3.08-2.5,5.75-4.5C1733.63,278.5,1735.79,276.84,1737.47,275.5z"/>
-               <path class="st0" d="M1874.46,270l11,12.5c-8.34,13-18.42,23.17-30.25,30.5c-11.84,7.34-23.75,11-35.75,11s-21.5-3.41-28.5-10.25
-                   c-7-6.83-10.5-16.25-10.5-28.25c0-28,10.5-66.66,31.5-116c-17,2.67-34,6.67-51,12l-3.5-19.5l-0.5-0.5c16.66-7,38.5-12.66,65.5-17
-                   c2.66-5,8.66-17.16,18-36.5c18.66-38.33,32-63.16,40-74.5l21.5,8.5c-3.34,7.34-9.17,19.59-17.5,36.75
-                   c-8.34,17.17-17.67,36.59-28,58.25c15-1,26.83-1.5,35.5-1.5c8.66,0,15.33,1.34,20,4V161c-4.67-1-11.42-1.5-20.25-1.5
-                   c-8.84,0-24.59,1.5-47.25,4.5c-19.67,44-29.5,76-29.5,96c0,7.67,2.41,14,7.25,19c4.83,5,11.33,7.5,19.5,7.5
-                   C1849.88,286.5,1860.79,281,1874.46,270z"/>
-               <path class="st0" d="M2017.96,261.5l10,8.5c-8,15.34-18.59,28.42-31.75,39.25c-13.17,10.84-25.09,16.25-35.75,16.25
-                   c-18.67,0-28-13-28-39c0-32.33,13.33-74.5,40-126.5c6-11.33,9.5-18,10.5-20l21.5,13c-7,12.67-15.59,32.84-25.75,60.5
-                   c-10.17,27.67-15.25,45.42-15.25,53.25c0,7.84,1.66,13.42,5,16.75c3.33,3.34,7.33,5,12,5
-                   C1989.46,288.5,2001.96,279.5,2017.96,261.5z M2024.46,114c-18.67,0-28-7.5-28-22.5c0-8.33,2.33-15.33,7-21
-                   c4.66-5.66,10.66-8.5,18-8.5c7.33,0,13.33,2.17,18,6.5c4.66,4.34,7,10,7,17s-2,13.5-6,19.5S2031.12,114,2024.46,114z"/>
-               <path class="st0" d="M2198.95,177.5c8.66,14.34,13,30.17,13,47.5c0,27-9.34,51.09-28,72.25c-18.67,21.17-40.67,31.75-66,31.75
-                   c-19.34,0-34.42-5.58-45.25-16.75c-10.84-11.16-16.25-26.58-16.25-46.25c0-31.66,12.33-60.08,37-85.25
-                   c24.66-25.16,52.33-37.75,83-37.75c5.66,0,9.66,0.17,12,0.5l1.5,16.5c-26.67,0-48.84,7.67-66.5,23c-17.67,15.34-26.5,35-26.5,59
-                   c0,14.34,3.5,25.92,10.5,34.75c7,8.84,17.25,13.25,30.75,13.25s24.25-6,32.25-18s12-26.08,12-42.25c0-16.16-3.17-30.91-9.5-44.25
-                   L2198.95,177.5z"/>
-               <path class="st0" d="M2431.45,265.5l10.5,8c-7.34,14.67-17.42,27-30.25,37c-12.84,10-24.42,15-34.75,15c-10.34,0-18.5-3-24.5-9
-                   s-9-13.5-9-22.5s5.75-24.75,17.25-47.25s17.25-39.08,17.25-49.75c0-4.66-1.92-8.91-5.75-12.75c-3.84-3.83-8.42-5.75-13.75-5.75
-                   c-17,0-34.17,12.92-51.5,38.75c-17.34,25.84-36.67,63.09-58,111.75l-30-10.5c6.33-38.66,15.41-76.41,27.25-113.25
-                   c11.83-36.83,22.75-63.25,32.75-79.25l20.5,6.5c-9.34,23.67-21.17,64.5-35.5,122.5c46-78.66,88.33-118,127-118
-                   c8.33,0,15.25,2.84,20.75,8.5c5.5,5.67,8.25,12.34,8.25,20c0,7.67-1,14.59-3,20.75c-2,6.17-8.25,20.5-18.75,43
-                   s-15.75,36.59-15.75,42.25c0,5.67,1.66,10.09,5,13.25c3.33,3.17,6.5,4.75,9.5,4.75s5.5-0.5,7.5-1.5s4.25-2.5,6.75-4.5
-                   s4.75-3.83,6.75-5.5c2-1.66,4.41-3.91,7.25-6.75C2428.03,268.42,2430.11,266.5,2431.45,265.5z"/>
-               </g>
-            </svg>
-
+            <div class="carousel-item">
+              <img src="img/carusel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-    </div>
-    
-    
-    <div class="main">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A dolore molestiae qui vero iure ducimus fugit voluptas. Commodi enim minus, corporis perferendis ipsam eius deleniti ratione recusandae eveniet reprehenderit nemo doloremque eos itaque veniam culpa porro iusto quidem dignissimos dolor nihil ipsa. Doloribus vitae dolor illo, iure voluptatem quos officiis.</p>
-        <p>Distinctio ratione dolore enim nemo, sequi itaque, deserunt ut dicta nulla, quasi ab. Amet commodi dolore accusantium, adipisci architecto veritatis assumenda maxime doloribus eius iure ut aliquam deserunt est inventore, id rerum, eos nobis fuga saepe nam sint minus voluptas. Molestiae iure, expedita officia perspiciatis aspernatur quam quo eius sed.</p>
-        <p>Molestiae fugiat consequuntur voluptates natus iusto praesentium suscipit dolorum minima dolor, sed sint iure asperiores quisquam tempore, repellendus pariatur ut et eos aut? Praesentium iste iusto provident minima sunt nulla beatae, dolorum quasi, nihil nam vero consequatur ipsam, ab dolores. Debitis odio dolorem suscipit dolor ab sit eius aut quas?</p>
-        <p>Architecto nostrum nam molestias esse sed asperiores illo neque, rem temporibus tempore quisquam at quod officia impedit eaque repellat ea fugit natus nemo? Ducimus, placeat? Quidem officiis tempore sint qui ut illo mollitia sunt, quae tenetur aliquid? Incidunt totam voluptatem dolores blanditiis inventore aut, odio consequuntur praesentium quisquam nam animi.</p>
-        <p>Repellendus magni fugiat numquam rem vitae quod eos quidem qui provident consequuntur distinctio dolores nesciunt atque architecto consequatur veniam, iure rerum necessitatibus dolorum assumenda. Unde alias repudiandae quam quia odio doloribus! Est culpa quibusdam tempora deserunt neque qui vitae at incidunt amet porro repellat ipsa aliquam, soluta exercitationem sapiente. Suscipit!</p>
-        <p>Fugiat praesentium modi quos quasi iusto dignissimos odio magni similique facere tempora laboriosam, eos nemo non tenetur beatae neque! Corporis veniam nobis architecto vitae? Necessitatibus quam ullam fugiat beatae nam, maxime iure perferendis velit fugit, explicabo ipsam sed ratione commodi laboriosam pariatur! Vel provident animi neque eligendi porro optio veritatis.</p>
-        <p>Expedita doloremque, nihil minus amet natus maxime magnam quae aliquid corrupti cum explicabo soluta officiis, culpa odio blanditiis atque nostrum enim! Nihil corporis nam molestiae itaque minima sed dolores nulla aliquam natus asperiores, ea numquam laudantium rem cum at iusto unde omnis, magni ad ab. Recusandae inventore et assumenda voluptates.</p>
-        <p>Consectetur ex necessitatibus, velit alias nam minima obcaecati, fugit corrupti totam exercitationem aut quasi neque dolorem molestias doloremque. Laudantium maxime cupiditate distinctio, culpa voluptas possimus quidem aperiam libero adipisci exercitationem asperiores! Praesentium eligendi iste repellendus mollitia eos excepturi deserunt! Illum blanditiis aut tempore fugiat aliquam, sint perspiciatis earum nam voluptatibus.</p>
-        <p>Impedit incidunt voluptates porro aut hic praesentium iste blanditiis delectus mollitia ab molestiae voluptas accusantium ullam ducimus quaerat natus suscipit vero eius at amet facilis, aliquid sunt. Temporibus doloremque quam officiis velit neque aspernatur assumenda cum, doloribus maiores voluptates sapiente consectetur minima inventore explicabo nesciunt iusto veniam eligendi! Consequuntur, aperiam.</p>
-        <p>Magni praesentium odit autem culpa explicabo. Nobis laudantium iure soluta iusto ut quam accusantium maxime quibusdam pariatur omnis magnam, quidem nihil impedit repudiandae voluptatibus saepe ducimus quae quia praesentium? Hic nesciunt laboriosam officia quo dicta nihil perferendis cupiditate modi, quis rerum ex soluta nisi nemo ipsum cum voluptates repudiandae recusandae!</p>
-        <p>Qui nihil nulla neque ullam officiis vel nesciunt quae alias odit dolorum non itaque nobis modi ipsam repellendus odio adipisci quas quis cumque voluptate, velit aliquid quibusdam corporis optio. Reiciendis quo animi perspiciatis nesciunt inventore sed enim ipsa velit, corporis laboriosam facilis labore saepe distinctio ratione accusamus a? Velit, accusamus!</p>
-        <p>Dolores fugit rem facere animi, tempore unde corporis officia nisi similique saepe beatae sequi ipsam, consectetur ex officiis aut blanditiis, atque accusamus esse magnam et incidunt possimus non. Neque dolores ipsum dolorem nemo consectetur temporibus dignissimos reprehenderit vitae nihil. Enim vel dolore voluptate saepe voluptates sint non ipsum ipsam accusantium.</p>
-        <p>Quisquam aliquam in sunt veniam accusantium necessitatibus, error quos voluptatem nisi suscipit dolores modi rerum reprehenderit architecto? Incidunt quia, delectus cupiditate harum dicta quod ad laborum aliquid. Dolorem voluptatibus dignissimos voluptate id quisquam? Magni, maxime consequatur odio suscipit dolore, porro ea, fugiat unde temporibus nam explicabo minus id rerum natus?</p>
-        <p>Hic consequatur voluptatibus iure nemo exercitationem repellendus impedit magnam neque beatae. Optio molestias quod nisi et repellat distinctio ea natus nemo commodi ullam laudantium incidunt, reprehenderit minima odio magnam, adipisci architecto necessitatibus. Quia, excepturi quos. Esse maxime animi, neque repellat doloribus atque totam reprehenderit architecto! Amet quod eveniet repellat corporis!</p>
-        <p>Libero quam facere odio animi tempora! Nobis aliquid quibusdam, ratione quaerat harum reiciendis neque natus obcaecati vero quia debitis voluptate nemo quas tempore magni a suscipit, culpa amet praesentium velit error aperiam! Impedit vel nesciunt dolores ipsam inventore adipisci ipsum a esse accusamus, quaerat eos accusantium neque placeat nisi quo.</p>
-        <p>Blanditiis, ab deserunt culpa quia deleniti perspiciatis. Consequuntur nam exercitationem doloribus saepe sapiente itaque, consectetur corrupti ipsam numquam perferendis commodi neque id, quaerat fugiat eum placeat cumque dicta quos corporis temporibus! Praesentium illo incidunt veniam, error perspiciatis minima atque, ex vitae omnis blanditiis quidem, maxime reiciendis harum magni pariatur eos.</p>
-        <p>Inventore molestias hic velit repellendus itaque voluptate numquam maiores odio rem aperiam ducimus, libero possimus rerum? Dolores impedit placeat architecto officiis, incidunt dignissimos itaque quo. Aspernatur ullam fugit voluptatem alias vel quasi deserunt quaerat voluptas praesentium fugiat ea totam, modi, soluta labore. Dolorum id consequuntur odit aut minus quidem impedit.</p>
-        <p>Repellat minus, voluptates illum saepe quis dolorem, repellendus illo alias ullam unde error! Dolorum hic suscipit enim voluptas a mollitia pariatur aperiam voluptatum sunt ipsam qui praesentium neque dolore, excepturi possimus beatae? Unde saepe perspiciatis quisquam consequuntur. Est, culpa temporibus ipsa, officia eaque officiis modi quo quibusdam tempore ullam consequuntur?</p>
-        <p>Delectus totam, tempore laudantium sequi facere nulla aut perferendis esse quasi molestiae perspiciatis officiis animi quaerat corporis optio consequatur vero hic ut, est qui! Quos repellendus, aspernatur reiciendis non, distinctio officiis eaque quam magnam voluptate, aperiam voluptas consequuntur beatae nesciunt ea? Voluptate optio qui ut? Aliquam adipisci voluptate dignissimos minima?</p>
-        <p>Consequatur consequuntur placeat ullam adipisci magni aliquam tenetur magnam facere culpa libero cupiditate incidunt non excepturi obcaecati fugiat eos quidem repellendus voluptatibus architecto dolorem dolore numquam ex, deserunt fugit! Sapiente delectus earum nemo quasi maiores eum numquam, culpa vero harum perspiciatis iusto quia soluta. Voluptas tempore sit quo dolorem dolore.</p>
-        <p>Earum cum, labore ut quo cupiditate eius necessitatibus, tenetur, sint explicabo iusto esse quia porro architecto ex fugit. Obcaecati laborum odio rerum. Veniam error nisi porro repellendus asperiores tenetur labore nostrum ullam ipsam iusto magnam dicta, ex dolor blanditiis qui deleniti? Ad, similique amet sint corrupti sequi incidunt ratione maiores!</p>
-        <p>Praesentium exercitationem ab tenetur, eveniet maiores ipsam! Deleniti officiis doloremque unde libero voluptatibus commodi perspiciatis. Excepturi sint quaerat tempora totam aliquam autem quia voluptatibus blanditiis, tempore, itaque reprehenderit doloribus officia maiores commodi consequuntur dolorem, alias obcaecati facere accusamus ea distinctio fugiat assumenda. Voluptates molestiae nihil tempore similique voluptate facilis dolorum?</p>
-        <p>Nulla architecto veritatis iusto, obcaecati impedit, tenetur eaque, similique dolorem atque magni vero nihil quasi autem? Eius quidem consectetur, doloremque unde dolorum accusantium error quos sunt, praesentium quaerat, sed amet? Et reprehenderit ipsam dolores laudantium quam voluptate doloribus deleniti provident quasi sit voluptatibus dolore, magnam blanditiis tenetur consequuntur quas? Quam.</p>
-        <p>Expedita veritatis ad perferendis, a animi iure. Minus, incidunt pariatur eaque saepe aperiam tempore dolorem iusto quibusdam ducimus officia dolore tempora sint fugit libero, voluptatem ipsam vitae earum consequatur soluta molestias beatae fugiat assumenda suscipit! Voluptas facilis ea nobis ullam ratione sequi placeat incidunt quo dolore. Quas suscipit veritatis ducimus.</p>
-        <p>Aliquid maiores enim, dolorem eius exercitationem dicta error possimus eveniet unde? Mollitia ut impedit expedita excepturi exercitationem nemo quis quaerat fugiat natus facilis sunt deleniti blanditiis voluptatibus deserunt corporis, nihil consequuntur totam unde delectus molestias aliquam in earum! Incidunt qui cum impedit fugiat ratione harum nam ipsam molestias sunt quo.</p>
-        <div id="inline">
-            <div class="wrap"><h2>Обратная связь</h2></div>
-            <form id="contact" name="contact" action="#" method="post">
-            <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя"><input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
-            <div class="wrap"><button id="send" disabled>Отправить</button></div>
-            </form>
-        </div>
+      </div>
 
-    </div>
-
-    <div class="footer">
-
-    </div>
-    
 </body>
 </html>
