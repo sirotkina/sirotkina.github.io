@@ -45,7 +45,7 @@ a:focus, a:hover {
     height: 600px;
     margin-top: 125px;
     background-color: black;
-    background-image: url(../img/bg_top.jpg);
+    background-image: url("https://sirotkina.github.io/homeworks/hw7_meow/img/bg_top.jpg");
     background-repeat: no-repeat;
 }
 
@@ -191,7 +191,7 @@ a:focus, a:hover {
 
 .container {
     background-color: white;
-    /* background: url(../img/meow_1.png); */
+    /* background: url("https://sirotkina.github.io/homeworks/hw7_meow/img/meow_1.png"); */
     background-size: cover;
     background-position: center center;
     position: relative;
