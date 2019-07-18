@@ -147,7 +147,7 @@ textarea.form-control {
 }
 
 .btn {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -244,7 +244,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-size: 18px;
 }
@@ -258,48 +258,6 @@ textarea.form-control {
 
 .pfblock-icon {
 	font-size: 32px;
-}
-.calltoaction *{
-    text-align: center;
-}
-.calltoaction {
-    background: url(../images/item-3.png);
-	background-color: #222;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
-	padding: 50px 0;
-	color: #999;
-}
-
-.calltoaction h2 {
-	font-size: 20px;
-	letter-spacing: 1px;
-	margin-bottom: 5px;
-}
-
-.calltoaction-decription{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-size: 20px;
-    color: #fff;
-}
-
-.calltoaction-btn {
-	text-align: center;
-}
-
-.calltoaction-btn > .btn {
-    background: rgba(255, 255, 255, .8);
-    color: #111;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.calltoaction-btn > .btn:hover{
-    background: #fff;
 }
 
 .long-down {
@@ -352,7 +310,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -512,7 +470,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: 'Lobster', cursive;
 }
 
 .navbar-custom .dropdown-menu {
