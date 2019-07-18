@@ -3,7 +3,9 @@
 
 
 body {
-	font: 300 14px/1.8 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 	color: #1d2433;
 	overflow-x: hidden;
 }
