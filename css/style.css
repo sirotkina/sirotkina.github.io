@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
+
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
@@ -503,7 +504,7 @@ textarea.form-control {
 }
 
 .scroll-up a {
-	background-color: rgba(20, 17, 44, 0.5);
+	background-color: rgba(21, 18, 36, 0.5);
 	display: block;
 	width: 35px;
 	height: 35px;
@@ -516,7 +517,7 @@ textarea.form-control {
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #e7746f;
+	color: #c00404;
 }
 
 /* --- Scroll Down --- */
